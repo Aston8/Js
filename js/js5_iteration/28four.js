@@ -55,5 +55,5 @@ const myObject = {
 //  for (const [key, value] of myObject) {
 //          console.log(key, ':-', value);
     
-//  }//this will not work for iterating objects
+//  }///this will not work for iterating objects///
 
