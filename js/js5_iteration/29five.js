@@ -1,3 +1,6 @@
+
+//for in
+
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
@@ -14,18 +17,33 @@ for (const key in myObject) {
 
 
 
+
+
+
 const programming = ["js", "rb", "py", "java", "cpp"]
 
 for (const key in programming) {
-    console.log(programming[key]);
+    console.log(key);//gets key values 0,1... because it is array
 }
 
-// const map = new Map()
-// map.set('IN', "India")
-// map.set('USA', "United States of America")
-// map.set('Fr', "France")
-// map.set('IN', "India")
 
-// for (const key in map) {
-//     console.log(key);
-// }
+for (const key in programming) {
+    console.log(programming[key]);//gives value
+}
+
+
+
+
+
+
+
+
+ const map = new Map()
+ map.set('IN', "India")
+ map.set('USA', "United States of America") 
+ map.set('Fr', "France")
+ map.set('IN', "India")
+
+//  for (const key in map) {
+//      console.log(key);
+//  }//cannot be iteratable using foe in
