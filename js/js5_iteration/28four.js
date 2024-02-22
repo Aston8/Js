@@ -33,7 +33,7 @@ const map = new Map()
  map.set('IN', "India")
  map.set('USA', "United States of America")
  map.set('Fr', "France")
- map.set('IN', "India")//this value is not primted because maps are
+ map.set('IN', "India")//this value is not primted because maps are unique
 
 console.log(map);
 
