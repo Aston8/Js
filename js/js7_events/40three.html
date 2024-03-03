@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>fun with Javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    
+
+
+    //first method
+    //    setInterval(function(){
+    //     console.log("Aston",Date.now())//printing aston for each one second withn date
+    //     },1000)
+    
+
+
+
+    //second method
+    // const sayDate = function(){//holding in variable
+    //     console.log("Aston",Date.now())//printing aston for each one second withn date
+    //     }
+
+
+    // setInterval(sayDate,1000)
+    
+    
+    
+    
+    
+    //to stop printing
+    const sayDate1 = function(str){
+        console.log(str, Date.now());
+    }
+
+    const intervalId = setInterval(sayDate1, 1000, "hi")//priting hi for each one second and giving string value here
+
+    clearInterval(intervalId)
+</script>
+</html>
