@@ -25,11 +25,11 @@
     //setTimeout(changeText,5000)
 
 
-   const changeMe = setTimeout(changeText, 5000)//here just holding in variable of change text
+   const changeMe = setTimeout(changeText, 5000)//here just holding in variable and changing text after 5 seconds
 
      document.querySelector('#stop').addEventListener('click', function(){//stop is button id 
       clearTimeout(changeMe)
-        console.log("STOPPED")//when i press stop before 5 seconds i stops changing
+        console.log("STOPPED")//when i press stop before 5 seconds it stops changing
      })
 </script>
 </html>
