@@ -70,7 +70,7 @@ Object.setPrototypeOf(TeachingSupport, Teacher)//same as previous we can acess t
 let anotherUsername = "ChaiAurCode     "
 
 String.prototype.trueLength = function(){
-    console.log(`${this}`);
+    console.log(`${this}`);//this will give what is string
     console.log(`True length is: ${this.trim().length}`);
 }
 
